@@ -1,0 +1,285 @@
+* {
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.head {
+    width: 230px;
+    height: 890px;
+    background: #000;
+}
+
+.home {
+    border-radius: 4px;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    margin-top: 7px;
+}
+
+.home>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.search>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-top: 10px;
+
+}
+
+.library>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 600;
+    padding-left: 12px;
+    padding-top: 10px;
+
+}
+
+.playlist {
+    color: #B3B3B3;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.create>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.songs>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 12px;
+    padding-top: 10px;
+
+}
+
+.horizontal-line {
+    display: flex;
+    justify-content: center;
+}
+
+.girl {
+    width: 230px;
+    height: 230px;
+    margin-top: 150px;
+}
+
+.main1-sub {
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+    width: 1140px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+.main2-sub {
+    width: 1140px;
+    height: 540px;
+    background: #000000;
+}
+
+.content>p {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+
+}
+
+.content>h1 {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 80px;
+    font-weight: 900;
+    letter-spacing: -1.8px;
+}
+
+.text {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.28px;
+    opacity: 0.7;
+    margin: 0px;
+}
+
+.spotify {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.likes {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    padding-left: 5px;
+    opacity: 0.7;
+}
+
+.views {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    padding-left: 5px;
+    opacity: 0.7;
+}
+
+.audio {
+    margin-left: 30px;
+}
+
+.love {
+    margin-left: 15px;
+}
+
+.dots {
+    margin-left: 12px;
+}
+
+.base {
+    margin: 6px;
+}
+
+.title {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    opacity: 0.7;
+}
+
+.album {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    opacity: 0.7;
+}
+
+.date {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1.32px;
+    opacity: 0.7;
+}
+
+.names {
+    line-height: 1px;
+}
+
+.image {
+    margin-left: 8px;
+}
+
+.songline-1 {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 14px;
+    padding-left: 8px;
+}
+
+.songline-2 {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+.edition {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer {
+    background: #181818;
+    width: 1370px;
+    height: 95px;
+}
+
+.foot-2 {
+    line-height: 1px;
+    padding-top: 23px;
+    padding-left: 10px;
+}
+
+.hold {
+    color: #FFF;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.author {
+    color: #FFF;
+    font-family: Circular Std;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+
+.heart {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.audio {
+    text-align: center;
+}
+
+.horizontal {
+    color: #B3B3B3;
+    text-align: center;
+    font-family: Circular Std;
+    font-size: 12.504px;
+    font-weight: 800;
+}
+
+.horline {
+    border-radius: 2.273px;
+    background: #B3B3B3;
+    width: 650px;
+    height: 5px;
+}

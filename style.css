@@ -1,0 +1,427 @@
+* {
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+.sidebar {
+    height: 780px;
+    width: 330px;
+    background-color: #000;
+}
+
+.home {
+    border-radius: 6px;
+    background: #282828;
+}
+
+.home>img {
+    width: 27px;
+    height: 30px;
+}
+
+.home>p {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 15px;
+    text-align: center;
+}
+
+.search {
+    margin-top: 6px;
+}
+
+.search>img {
+    width: 27px;
+    height: 27px;
+}
+
+.search>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.library {
+    margin-top: 6px;
+}
+
+.library>img {
+    width: 28px;
+    height: 29px;
+}
+
+.library>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.plus {
+    margin-top: 30px;
+}
+
+.plus>img {
+    background-color: #FFF;
+    width: 31px;
+    height: 31px;
+}
+
+.plus>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.heart{
+    margin-top: 5px;
+}
+
+.heart>img {
+    width: 30px;
+    height: 30px;
+    border-radius: 1px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.heart>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.wifi>img {
+    background-color: #004638;
+    width: 30px;
+    height: 30px;
+}
+
+.wifi>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.fav {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.mix {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.dis {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.mal {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.dance {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.edm {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 9px;
+    margin-top: 12px;
+    font-family: DM Sans;
+}
+
+.arrow {
+    margin-top: 35px;
+}
+
+.arrow>img {
+    width: 30px;
+    height: 30px;
+}
+
+.arrow>p {
+    padding-left: 15px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 5px;
+}
+
+.main {
+    width: 100vw;
+    height: 750px;
+    background: linear-gradient(180deg, #222 0%, #1F1F1F 11.64%, #171717 25.66%, #161616 32.94%, #151515 35.98%, #131313 44.89%, #121212 55.22%, #121212 75.34%, #121212 85.45%, rgba(18, 18, 18, 0.00) 100%);
+
+}
+
+.blockdiv {
+    display: flex;
+}
+
+.lady>p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.lady {
+    border-radius: 33px;
+    background: #0A0A0A;
+
+}
+
+.lady>img {
+    width: 37px;
+    height: 37px;
+}
+
+#arrow {
+    width: 24px;
+    height: 27px;
+    padding-left: 8px;
+    padding-bottom: 5px;
+}
+
+.good {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liked {
+    margin-top: 20px;
+}
+
+.liked>img {
+    width: 50px;
+    height: 60px;
+    border-radius: 4px 0px 0px 4px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+.liked>p {
+    width: 150px;
+    height: 60px;
+    border-radius: 4px;
+    background: #303030;
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    padding-top: 18px;
+}
+
+.shows {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 29px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.seeall {
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.singers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.sing1 {
+    width: 250px;
+    height: 270px;
+    background: #181818;
+}
+
+.sing4 {
+    width: 250px;
+    height: 300px;
+    background: #181818;
+    z-index: -1;
+}
+
+
+.sing5 {
+    width: 250px;
+    height: 300px;
+    background: #181818;
+    z-index: -1;
+}
+
+
+.sing6 {
+    width: 250px;
+    height: 300px;
+    background: #181818;
+    z-index: -1;
+}
+
+
+.sing7 {
+    width: 250px;
+    height: 300px;
+    background: #181818;
+    z-index: -1;
+}
+
+.cd-title {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 21px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.author {
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.footer {
+    width: 1525px;
+    height: 110px;
+    background: #181818;
+    z-index: 9;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.foot-left {
+    display: flex;
+    align-items: center;
+}
+
+.ft-name {
+    margin-left: 8px;
+    line-height: 2px;
+}
+
+.ft-name>p {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ft-name {
+    color: #B3B3B3;
+    font-family: DM Sans;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.time>span {
+    color: #C4C4C4;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.right-icons {
+    text-align: center;
+}
+
+.first-icon {
+    transform: rotate(-11.406deg);
+}
+
+.sec-icon {
+    width: 50px;
+    height: 32px;
+}
+
+.trd-icon {
+    width: 22px;
+    height: 24px;
+}
+
+.fo-icon {
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+}
+
+.greendiv {
+    width: 1525px;
+    height: 30px;
+    background: #1ED760;
+}
+
+.greendiv {
+    display: flex;
+    justify-content: end;
+    color: #000;
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 900;
+}
